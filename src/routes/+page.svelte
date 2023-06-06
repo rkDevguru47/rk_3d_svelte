@@ -12,8 +12,11 @@
 	}
 
 	if (browser) {
-		const pane = new Pane({ title: 'Scene' })
-
+		const pane = new Pane({
+			
+			 title: 'Scene' ,
+		})
+		
 		const sphereControls = pane.addFolder({ title: 'Sphere' })
 		sphereControls.addInput(sphere, 'position')
 
@@ -22,7 +25,7 @@
 		})
 	}
   </script>
-  
+
   <div class="scene">
 	<Threlte.Canvas>
 	  <!-- Camera -->
@@ -43,6 +46,7 @@
 		  camera: { top: 8 },
 		}}
 	  />
+	
   
 	  <!-- Sphere -->
 	  <Threlte.Mesh

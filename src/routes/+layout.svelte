@@ -14,28 +14,34 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Skeleton</strong>
+				<strong class="text-xl uppercase">3D - with Threlte</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://discord.gg/EXqV7W8MtY"
-					target="_blank"
+					class="btn btn-sm variant-ghost-success"
+					href="/spooky"
 					rel="noreferrer"
 				>
-					Discord
+					Spooky
 				</a>
 				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://twitter.com/SkeletonUI"
+				class="btn btn-sm variant-ghost-error"
+				href="/"
+				rel="noreferrer"
+			>
+				Sphere
+			</a>
+				<a
+					class="btn btn-sm variant-ghost-tertiary"
+					href="https://rishu47.vercel.app/"
 					target="_blank"
 					rel="noreferrer"
 				>
-					Twitter
+					Rishu Kumar
 				</a>
 				<a
 					class="btn btn-sm variant-ghost-primary"
-					href="https://github.com/skeletonlabs/skeleton"
+					href="https://github.com/rkDevguru47"
 					target="_blank"
 					rel="noreferrer"
 				>
