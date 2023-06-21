@@ -1,3 +1,5 @@
+A simple project to explore threlte in sveltekit. You can play around with 3d models and background using the sidemenu.
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
